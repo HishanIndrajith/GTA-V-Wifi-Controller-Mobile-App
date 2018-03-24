@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GTA v Game Controller</string>
+
+
+    <string name="name1">ip address</string>
+    <string name="name2">message</string>
+    <string name="button1">Connect</string>
+    <string name="button2">Send</string>
+    <string name="btn1" />
+    <string name="notifytxt">Not Connected</string>
+    <string name="iphalf">192.168.</string>
+    <string name="title_activity_first_page">FirstPage</string>
+
+
+    <string name="title_activity_fullscreen"></string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

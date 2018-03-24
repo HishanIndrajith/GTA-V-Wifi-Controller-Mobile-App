@@ -1,0 +1,233 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/contacttitle"
+    android:weightSum="1"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/title"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="GO"
+            android:id="@+id/GO"
+            android:layout_weight="0.69" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.26">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="F"
+                    android:id="@+id/F"
+                    android:layout_weight="0.04" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="jump"
+                    android:id="@+id/jump"
+                    android:layout_weight="0.04" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.04" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="E"
+                    android:id="@+id/E"
+                    android:layout_weight="0.05" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="attack"
+                    android:id="@+id/attack"
+                    android:layout_weight="0.03" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="417dp"
+                android:layout_height="53dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="GTA v controller by Hishan Indrajith ©"
+                    android:id="@+id/textView4"
+                    android:textColor="#ff8bff09"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="12dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Reverse"
+            android:id="@+id/Reverse"
+            android:layout_weight="0.06" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="LEFT"
+            android:id="@+id/LEFT"
+            android:layout_weight="0.23" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.24" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="CENTER"
+            android:id="@+id/CENTER"
+            android:layout_weight="0.11" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.23" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="RIGHT"
+            android:id="@+id/RIGHT"
+            android:layout_weight="0.19" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1"
+        android:layout_weight="0.3">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="SHIFT"
+            android:id="@+id/SHIFT"
+            android:layout_weight="0.25" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="V"
+            android:id="@+id/V"
+            android:layout_weight="0.25" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Rclick"
+            android:id="@+id/Rclick"
+            android:layout_weight="0.25" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="ctrl"
+            android:id="@+id/ctrl"
+            android:layout_weight="0.25" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/linearLayout"
+        android:weightSum="1"
+        android:layout_weight="0.39">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="lawyer"
+            android:id="@+id/lawyer"
+            android:layout_weight="0.24" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="turtle"
+            android:id="@+id/turtle"
+            android:layout_weight="0.24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="         Cheats    "
+            android:id="@+id/textView3"
+            android:layout_weight="0.30"
+            android:textColor="#ff1dffb8"
+            android:singleLine="false"
+            android:layout_gravity="center"
+            android:textAlignment="center" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="painkiller"
+            android:id="@+id/painkiller"
+            android:layout_weight="0.09" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="toolup"
+            android:id="@+id/toolup"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.14" />
+
+    </LinearLayout>
+
+</LinearLayout>
