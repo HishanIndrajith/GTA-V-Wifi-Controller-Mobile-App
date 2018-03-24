@@ -1,0 +1,2 @@
+# GTA-V-Wifi-Controller-Mobile-App
+This is fun coding done by me in leasure time. This mobile app controles GTA v game using smart phone using accelerometer as well as button controles. The Server.java must be run in the PC for this to happen. Both PC and Phone must be connected to same wifi connection and ip must be given at the beginning. Some lagging was observed. Android studio project attached. Server.java is also inside it. APK is also given
